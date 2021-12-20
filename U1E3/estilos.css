@@ -1,0 +1,20 @@
+p{
+    color:rgb(55, 117, 119);
+    font-family: Arial;
+    text-align: center;
+    background-color: rgb(138, 190, 138);
+}
+#experiencia{
+    color: rgb(126, 34, 0);
+    font-family: Arial;
+    text-align: center;
+    background-color: sandybrown;
+}
+.titulos{
+    font-family: Verdana;
+    font-style: italic;
+    font-size: large;
+    background-color: steelblue;
+    text-align: center;
+
+}
