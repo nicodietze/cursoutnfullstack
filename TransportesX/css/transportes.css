@@ -2,10 +2,17 @@ body{
     font-family:'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 20px;
+        background-image: url("fondo.jpg");
+        background-repeat:no-repeat;
+        background-size:cover;
+}
+
+main{
+    background-color: rgb(255, 249, 241);
 }
 
 header{
-    background-color: cornflowerblue;
+    background-color: rgb(182, 56, 176);
     padding: 1em 0;
 }
 
@@ -19,8 +26,16 @@ header h1{
     bottom: 30px;
 }
 
+header h2{
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0 0 1em;
+    font-style: italic;
+    font-weight: 100;
+}
+
 nav{
-    background-color: skyblue;
+    background-color: rgb(195, 135, 235);
     margin-bottom: 2em;
 }
 
@@ -48,11 +63,11 @@ nav ul li a:hover{
 }
 
 nav ul li a.activo{
-    background-color: #4c76a5;
+    background-color: #4e0255;
 }
 
 footer{
-    background-color: #ccc;
+    background-color: rgb(167, 74, 74);
     clear: both;
     color: #333;
     padding: 3em 0;
