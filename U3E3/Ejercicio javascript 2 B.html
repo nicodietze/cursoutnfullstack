@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+</head>
+
+<body>
+	<script>
+		
+		
+		valor1 = prompt('Ingrese primer número:', '');
+        valor2 = prompt('Ingrese segundo número', '');
+		valor3 = prompt('Ingrese tercer número', '');
+        valor4 = prompt('Ingrese cuarto número', '');
+        valor5 = prompt('Ingrese quinto número', '');
+        valor6 = prompt('Ingrese sexto número', '');
+
+		var array = [valor1,valor2,valor3,valor4,valor5,valor6];
+
+		var max = Math.max(...array);
+			
+			console.log(array.length);
+			console.log('El numero mayor es:' , max);
+		
+		document.write('El numero mayor es ');
+        document.write(max);
+	</script>
+
+</body>
+</html>
