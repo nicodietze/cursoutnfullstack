@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+</head>
+
+<body>
+	<h3>Ejercicio 3 - Dado un array de alumnos identificar aprobados y desaprobados</h3>
+	<p></p>
+	<script>
+		function alumnos() {
+			var estudiantes = [['Juan Gomez', 7], ['Pedro Rodriguez', 4], ['Roxana Garcia', 8], ['Luciano Lopez', 5], ['Fernanda Gimenez', 6], ['Florencia Martinez', 10], ['Raul Sanchez', 7], ['Sandra Figueroa', 8]];
+			for (var i = 0; i < estudiantes.length; ++i) {
+				var item = estudiantes[i];
+				if (item[1] >= 7) {
+					console.log(item[0] + ": Aprobado.");
+					document.write("<li>" + item[0] + ": Aprobado" + "</li>");
+
+				} else {
+					console.log(item[0] + ": Desaprobado.");
+					document.write("<li>" + item[0] + ": Desaprobado" + "</li>");
+				}
+			}
+		}
+		alumnos()
+	</script>
+</body>
+
+</html>
