@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="ejercicio1.css">
+</head>
+
+<body class="fondo">
+    <h3>Ejercicio 2 - Contador de caracteres</h3>
+    <p></p>
+    <h2>Ingrese caracteres:</h2>
+    <textarea placeholder="Ingrese caracteres para contar" name="message" onkeyup="countChars(this);"></textarea>
+    <p id="charNum">0 caracteres</p>
+    <script>
+        function countChars(obj) {
+            document.getElementById("charNum").innerHTML = obj.value.length + ' caracteres';
+        }
+    </script>
+</body>
+
+</html>
