@@ -1,0 +1,58 @@
+.cuadrado1 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    background-color: red;
+}
+
+.cuadrado2 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    background-color: green;
+}
+
+.cuadrado3 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    background-color: blue;
+}
+
+.cuadrado4 {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+}
+
+.fondo {
+    background: whitesmoke;
+}
+
+.fondo.rojo {
+    background: red;
+}
+
+.fondo.verde {
+    background: green;
+}
+
+.fondo.azul {
+    background: blue;
+}
+
+
+.cuadrado.borde {
+    border: 2px solid black;
+}
+
+      
