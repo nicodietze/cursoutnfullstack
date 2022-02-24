@@ -5,6 +5,7 @@
     border-color: black;
     border-style: solid;
     background-color: red;
+    cursor: pointer;
 }
 
 .cuadrado2 {
@@ -14,6 +15,7 @@
     border-color: black;
     border-style: solid;
     background-color: green;
+    cursor: pointer;
 }
 
 .cuadrado3 {
@@ -23,6 +25,7 @@
     border-color: black;
     border-style: solid;
     background-color: blue;
+    cursor: pointer;
 }
 
 .cuadrado4 {
@@ -32,6 +35,7 @@
     border-color: black;
     border-style: solid;
     background-color: white;
+    cursor: pointer;
 }
 
 .fondo {
