@@ -1,4 +1,7 @@
 import React from 'react';
+import '../../styles/Header.css';
+
+
 const Header = (props) => {
     return (<header>
         <div className='holder'>

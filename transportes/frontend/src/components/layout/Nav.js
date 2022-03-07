@@ -1,5 +1,5 @@
 import {Link} from 'react-router-dom';
-import '/UTN/transportes/frontend/src/styles/Nav.css';
+import '../../styles/Nav.css';
 
 const Nav = (props) => {
     return (

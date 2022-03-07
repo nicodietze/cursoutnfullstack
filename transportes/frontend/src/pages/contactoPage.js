@@ -1,6 +1,6 @@
-import Reac from "react";
+import '../styles/ContactoPage.css';
 
-const contactoPage = (props) => {
+const ContactoPage = (props) => {
     return (
         <main className="holder">
             <div className="columna contacto">
@@ -41,4 +41,4 @@ const contactoPage = (props) => {
     );
 }
 
-export default contactoPage;
+export default ContactoPage;

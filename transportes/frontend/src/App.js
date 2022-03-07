@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
+import './App.css';
 import ContactoPage from './pages/ContactoPage';
 import HomePage from './pages/HomePage';
 import NosotrosPage from './pages/NosotrosPage';
@@ -7,7 +8,6 @@ import NovedadesPage from './pages/NovedadesPage';
 import Header from './components/layout/Header';
 import Nav from './components/layout/Nav';
 import Footer from './components/layout/Footer';
-
 
 function App() {
   return (
