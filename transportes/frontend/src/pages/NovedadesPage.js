@@ -1,3 +1,4 @@
+import '/UTN';
 import Reac from "react";
 
 const NovedadesPage = (props) => {
