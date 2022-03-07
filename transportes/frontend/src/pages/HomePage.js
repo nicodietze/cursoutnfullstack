@@ -1,3 +1,4 @@
+import '../styles/HomePage.css';
 import Reac from 'react';
 
 const HomePage = (props) => {

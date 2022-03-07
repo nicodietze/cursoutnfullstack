@@ -1,4 +1,4 @@
-import '/UTN';
+import '../styles/NovedadesPage.css';
 import Reac from "react";
 
 const NovedadesPage = (props) => {
