@@ -1,0 +1,36 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+header{
+  background-color: rgb(182, 56, 176);
+  padding: 1em 0;
+}
+
+header h1{
+  color: white;
+  font-size: 2.5em;
+  font-style: italic;
+  font-weight: 100;
+  display: inline-block;
+  position: relative;
+  bottom: 30px;
+}
+
+header h2{
+  color: #ffffff;
+  font-weight: 400;
+  margin: 0 0 1em;
+  font-style: italic;
+  font-weight: 100;
+}
+
+footer{
+  background-color: rgb(167, 74, 74);
+  clear: both;
+  color: #333;
+  padding: 3em 0;
+  margin-top: 2em;
+  text-align: center;
+}
