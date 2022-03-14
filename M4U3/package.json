@@ -1,0 +1,14 @@
+{
+  "name": "m4u3",
+  "version": "1.0.0",
+  "description": "Ejercicio M4U3 UTN fullstack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nico Dietze",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}
