@@ -26,9 +26,6 @@ app.use(session({
   saveUninitialized: true
 }));
 
-/* app.use('/', indexRouter);
-app.use('/users', usersRouter); */
-
 app.get('/', function (req, res) {
   var conocido = Boolean(req.session.nombre);
 
@@ -50,6 +47,11 @@ app.get('/salir', function (req,res){
   req.session.destroy();
   res.redirect('/');
 });
+
+/* app.use('/', indexRouter);
+app.use('/users', usersRouter); */
+
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
