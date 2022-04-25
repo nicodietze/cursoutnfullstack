@@ -4,7 +4,7 @@ body {
   line-height: 28px;
 }
 header{
-  background-color: rgb(182, 56, 176);
+  background-color: rgb(193, 98, 188);
   padding: 1em 0;
 }
 
@@ -27,7 +27,7 @@ header h2{
 }
 
 footer{
-  background-color: rgb(167, 74, 74);
+  background-color: rgb(193, 98, 188);
   clear: both;
   color: #333;
   padding: 3em 0;
