@@ -23,27 +23,14 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Título</th>
+                    <th scope="col">Subtitulo</th>
+                    <th scope="col">Cuerpo</th>
                     <th scope="col" class="text-center">Acciones</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Va el titulo</td>
-                    <td class="text-center">
-                        <a href="#" class="btn btn-sm btn-secondary">
-                            <i class="fa fa-pencil"></i> </a>
-                        <a href="#" class="btn btn-sm btn-secondary">
-                            <i class="fa fa-trash">
-                            </i>
-                        </a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
     </div>
 </div>
-<tbosy>
+<tbody>
     {{#each novedades}}
     <tr>
         <th scope="row">{{id}}</th>
@@ -56,4 +43,5 @@
         </td>
     </tr>
     {{/each}}
-</tbosy>
+</tbody>
+</table>

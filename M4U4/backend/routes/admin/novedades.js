@@ -29,7 +29,6 @@ router.post('/agregar', async (req, res, next) => {
                     layout:'admin/layout',
                     error: true, message: 'Todos los campos son requeridos'
                     })
-
             }
     } catch (error) {
         console.log(error)
