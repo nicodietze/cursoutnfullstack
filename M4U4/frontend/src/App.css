@@ -1,0 +1,31 @@
+body{
+  font-family:'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+      background-image: url('../public/images/fondo.jpg');
+      background-repeat:no-repeat;
+      background-size:cover;
+}
+
+.holder{
+  width: 960px;
+  margin: 0 auto;
+}
+
+main{
+  background-color: rgb(255, 249, 241);
+}
+
+h2{
+  color: #2e64a1;
+  font-weight: 400;
+  margin: 0 0 1em;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
