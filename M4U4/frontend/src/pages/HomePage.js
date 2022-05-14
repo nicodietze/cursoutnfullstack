@@ -4,10 +4,19 @@ import React from 'react';
 const HomePage = (props) => {
     return (
         <main className="holder">
-            <div className="homeimg">
-            </div>
-            <div className="columnas">
-                <div className="bienvenidos left">
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ingrid+Darling&family=Patrick+Hand&display=swap');
+            </style>
+             <div className="columnas">
+                
+                <div className='testimonios-right'>
+                <h3>Testimonios</h3>
+                <div className='testimonio'>
+                    <span className='cita'>Totalmente increíble</span>
+                    <span className='autor'>Juan Perez</span>
+                </div>
+                </div>
+                 <div className="bienvenidos-left">
                     <h2>¿Qué es Caja de Rimas?</h2>
                     <p>Caja de Rimas es un libro de cuentos ilustrados para niños, madres, padres, tias, tios, abuelas y abuelos,
                         escrito en rima, cada cuento posee un estilo artistico único e increíble.</p>
@@ -82,13 +91,7 @@ const HomePage = (props) => {
                     <p>Juan Manuel Corvalán</p>
                 </div>
             </div>
-            <div className='testimonios right'>
-                <h2>Testimonios</h2>
-                <div className='testimonio'>
-                    <span className='cita'>Totalmente increíble</span>
-                    <span className='autor'>Juan Perez</span>
-                </div>
-            </div>
+         
         </main >
     );
 }

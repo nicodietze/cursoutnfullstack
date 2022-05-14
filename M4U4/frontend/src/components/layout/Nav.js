@@ -4,6 +4,9 @@ import '../../styles/Nav.css';
 const Nav = (props) => {
     return (
         <nav>
+            <style>
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ingrid+Darling&family=Patrick+Hand&display=swap');
+</style>
             <div className='holder'>
                 <ul>
                     <li><Link to="/">Home</Link></li>
