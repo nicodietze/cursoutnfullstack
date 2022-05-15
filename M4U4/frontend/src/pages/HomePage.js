@@ -20,9 +20,11 @@ const HomePage = (props) => {
                     <h2>¿Qué es Caja de Rimas?</h2>
                     <p>Caja de Rimas es un libro de cuentos ilustrados para niños, madres, padres, tias, tios, abuelas y abuelos,
                         escrito en rima, cada cuento posee un estilo artistico único e increíble.</p>
+                        <br></br>
                     <h2>¿Para quién es este libro?</h2>
                     <p>Lectores en su segunda infancia, niños y niñas de 6 a 12 años, pero también un poco
                         a los adultos que lean con ellos.</p>
+                        <br></br>
                     <h2>Fundamentación</h2>
                     <p>El proyecto Caja de Rimas surgió en 2018 como una idea pequeña que fue creciendo y se
                         convirtió en un libro de 6 cuentos ilustrados. La rima nos pareció el estilo que mejor se adaptaba
@@ -37,6 +39,7 @@ const HomePage = (props) => {
                     <p> Las ilustraciones van cambiando de estilo y materiales de cuento a cuento,
                         cada historia tiene su propia impronta y el estilo elegido tiene relación
                         con el contenido del propio relato.</p>
+                        <br></br>
                     <h2>Objetivo</h2>
                     <p>Nuestro principal objetivo es despertar las ideas, el debate, la charla,
                         que el niño no se sienta subestimado, que juegue con esas palabras,
@@ -49,6 +52,7 @@ const HomePage = (props) => {
                         Nuestro deseo es que este libro sea un puente entre los libros de
                         la primera infancia y los de la pre-adolescencia. Si es posible también,
                         que sea trabajado en escuelas y centros educativos.</p>
+                        <br></br>
                     <h2>Contenido</h2>
                     <h3>Estos son los cuentos presentes en el libro:</h3>
                     <ul>
@@ -78,6 +82,7 @@ const HomePage = (props) => {
                             importancia de conectar con el otro, de bajar de vez en cuando
                             las pantallas y observar el mundo.</li></p>
                     </ul>
+                    <br></br>
                     <h2>Palabras finales</h2>
                     <p>Creemos fervientemente que Caja de Rimas es un proyecto increíble,
                         atractivo y bien logrado, le dedicamos más de cuatro años de trabajo y dejamos
@@ -87,6 +92,7 @@ const HomePage = (props) => {
                         sino también para el ámbito educativo. Posee un arte muy trabajado, llamativo y profundo,
                         realmente creemos que es original y distinta, por cómo se ve y por los temas que trabaja.
                         Esperamos que la disfruten tanto como nosotros disfrutamos crearla.</p>
+                        <br></br>
                     <p>Nicolás Alejandro Dietze</p>
                     <p>Juan Manuel Corvalán</p>
                 </div>
