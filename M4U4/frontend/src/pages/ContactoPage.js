@@ -26,7 +26,7 @@ const ContactoPage = (props) => {
 
                 </form>
             </div>
-            <div className="columna datos">
+            <div className="columna-datos">
                 <h2>Otras vias de contacto</h2>
                 <p>También se pueden comunicar con nosotros ...</p>
                 <ul>

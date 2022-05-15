@@ -12,7 +12,7 @@ const destroy = util.promisify(cloudinary.uploader.destroy);
 /* GET home page. */
 router.get('/', async function (req, res, next) {
     var novedades = await novedadesModel.getNovedades();
-novedades = novedades-map(novedad => {
+novedades = novedades.map(novedad => {
     if(novedad.img_id) {
     const imagen = cloudinary.image(novedad.img_id, {
         width: 100,
@@ -20,12 +20,12 @@ novedades = novedades-map(novedad => {
         crop: 'fill'
     });
     return {
-        novedad,
+        ...novedad,
         imagen
     }
 } else {
     return {
-        novedad,
+        ...novedad,
         imagen: ''
     }
 }
@@ -98,7 +98,7 @@ router.post('/modificar', async (req, res, next) => {
     try {
         let img_id = req.body.img_original;
         let borrar_img_vieja = false;
-        if(req.body.img_delete === "1") {
+        if (req.body.img_delete === "1") {
             img_id = null;
             borrar_img_vieja = true;
         } else {
@@ -112,7 +112,7 @@ router.post('/modificar', async (req, res, next) => {
 if (borrar_img_vieja && req.body.img_original) {
     await (destroy(req.body.img_original));
 }
-        let obj = {
+        var obj = {
             titulo: req.body.titulo,
             subtitulo: req.body.subtitulo,
             cuerpo: req.body.cuerpo,
