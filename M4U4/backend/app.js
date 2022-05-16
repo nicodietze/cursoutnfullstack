@@ -26,10 +26,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(fileUpload({
-  useTempFiles: true,
-  tempFileDir: '/tmp/'
-}));
+
 
 app.use(session({
   secret: 'cursoutnfullstacknicodietze',
@@ -51,6 +48,10 @@ secured = async (req, res, next) => {
   }
 }
 
+app.use(fileUpload({
+  useTempFiles: true,
+  tempFileDir: '/tmp/'
+}));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
