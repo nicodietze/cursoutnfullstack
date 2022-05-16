@@ -54,6 +54,7 @@ const HomePage = (props) => {
                         que sea trabajado en escuelas y centros educativos.</p>
                         <br></br>
                     <h2>Contenido</h2>
+                    <br></br>
                     <h3>Estos son los cuentos presentes en el libro:</h3>
                     <ul>
                         <p><li><b>El Rey apestoso</b> – Es un cuento sobre un Rey muy apestoso y su pueblo,

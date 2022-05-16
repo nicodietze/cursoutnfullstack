@@ -27,7 +27,7 @@ router.get('/', async function (req, res, next) {
         } else {
             return {
                 ...novedad,
-                imagen: 'No hay imagen'
+                imagen: ''
             }
         }
     });
@@ -48,7 +48,7 @@ router.get('/agregar', (req, res, next) => {
 router.post('/agregar', async (req, res, next) => {
     try {
         var img_id = '';
-        if (req.files && Object.keys(req.files).lenght > 0) {
+        if (req.files && Object.keys(req.files).length > 0) {
             imagen = req.files.imagen;
             img_id = (await uploader(imagen.tempFilePath)).public_id;
         }
@@ -108,8 +108,7 @@ router.post('/modificar', async (req, res, next) => {
         } else {
             if (req.files && Object.keys(req.files).length > 0) {
                 imagen = req.files.imagen;
-                img_id = (await
-                    uploader(imagen.tempFilePath)).public_id;
+                img_id = (await uploader(imagen.tempFilePath)).public_id;
                 borrar_img_vieja = true;
             }
         }

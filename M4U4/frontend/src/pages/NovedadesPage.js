@@ -1,7 +1,7 @@
 import '../styles/NovedadesPage.css';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import NovedadItem from '../components/layout/novedades/NovedadItem';
+import NovedadItem from '../components/novedades/NovedadItem';
 
 const NovedadesPage = (props) => {
     
