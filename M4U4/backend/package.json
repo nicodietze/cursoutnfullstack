@@ -5,6 +5,9 @@
   "scripts": {
     "start": "node ./bin/www"
   },
+  "engines": {
+    "node": "16.15.0"
+  },
   "dependencies": {
     "cloudinary": "^1.30.0",
     "cookie-parser": "~1.4.4",
