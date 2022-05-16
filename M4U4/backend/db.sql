@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 16-05-2022 a las 15:41:44
+-- Tiempo de generación: 16-05-2022 a las 20:27:15
 -- Versión del servidor: 5.7.36
 -- Versión de PHP: 7.4.26
 
@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 
 INSERT INTO `usuarios` (`id`, `usuario`, `password`) VALUES
 (1, 'nico', '81dc9bdb52d04dc20036dbd8313ed055'),
-(2, 'flavia', '1234');
+(2, 'flavia', '81dc9bdb52d04dc20036dbd8313ed055');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
