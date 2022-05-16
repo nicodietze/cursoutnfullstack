@@ -1,4 +1,4 @@
-var pool = require('./db');
+var pool = require('./bd');
 
 async function getNovedades() {
     var query = "select * from novedades order by id desc";
