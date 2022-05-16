@@ -97,8 +97,9 @@ const HomePage = (props) => {
                     <p>Nicolás Alejandro Dietze</p>
                     <p>Juan Manuel Corvalán</p>
                 </div>
+                
             </div>
-         
+           
         </main >
     );
 }
