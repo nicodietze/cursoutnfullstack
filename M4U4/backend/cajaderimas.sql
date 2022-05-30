@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 16-05-2022 a las 20:27:15
+-- Tiempo de generación: 30-05-2022 a las 17:30:44
 -- Versión del servidor: 5.7.36
 -- Versión de PHP: 7.4.26
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `caja_de_rimas`
+-- Base de datos: `cajaderimas`
 --
 
 -- --------------------------------------------------------
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `novedades` (
   `enlace` text NOT NULL,
   `img_id` varchar(250) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
 
 --
 -- Volcado de datos para la tabla `novedades`

@@ -1,4 +1,4 @@
-import { useState, UseState } from 'react';
+import { useState } from 'react';
 import axios from 'axios';
 import '../styles/ContactoPage.css';
 
@@ -28,7 +28,7 @@ const ContactoPage = (props) => {
         setMsg('');
         setSending(true)
         const response = await
-    axios.post(`http://localhost:3000/api/contacto`, formData);
+    axios.post(`${process.env.REACT_APP_API_URL}/api/contacto`, formData);
         setSending(false);
         setMsg(response.data.message);
         if (response.data.error === false) {
