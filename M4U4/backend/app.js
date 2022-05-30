@@ -12,7 +12,7 @@ var session = require('express-session');
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var loginRouter = require('./routes/admin/login');
-var adminRouter = require('./routes/admin/novedades');
+var adminNovedadesRouter = require('./routes/admin/novedades');
 var apiRouter = require('./routes/api');
 
 var app = express();
