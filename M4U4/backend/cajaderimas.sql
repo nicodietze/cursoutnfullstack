@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 30-05-2022 a las 17:30:44
+-- Tiempo de generación: 30-05-2022 a las 22:06:39
 -- Versión del servidor: 5.7.36
 -- Versión de PHP: 7.4.26
 
@@ -54,7 +54,7 @@ INSERT INTO `novedades` (`id`, `titulo`, `subtitulo`, `cuerpo`, `enlace`, `img_i
 
 DROP TABLE IF EXISTS `usuarios`;
 CREATE TABLE IF NOT EXISTS `usuarios` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `usuario` varchar(60) NOT NULL,
   `password` varchar(60) NOT NULL,
   PRIMARY KEY (`id`)

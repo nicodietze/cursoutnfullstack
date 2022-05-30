@@ -56,7 +56,7 @@ app.use(fileUpload({
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/admin/login', loginRouter);
-app.use('/admin/novedades', secured, adminRouter);
+app.use('/admin/novedades', secured, adminNovedadesRouter);
 app.use('/api', cors(), apiRouter);
 
 // catch 404 and forward to error handler
