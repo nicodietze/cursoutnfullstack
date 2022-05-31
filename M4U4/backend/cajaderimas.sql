@@ -27,6 +27,8 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `novedades`
 --
 
+use heroku_58967f6d766ba85
+
 DROP TABLE IF EXISTS `novedades`;
 CREATE TABLE IF NOT EXISTS `novedades` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
