@@ -26,7 +26,7 @@ const NovedadesPage = (props) => {
             ) : (
                 novedades.map(item => <NovedadItem key={item.id}
                 title={item.titulo} subtitle={item.subtitulo}
-                body={item.cuerpo} link={item.enlace} imagen={item.imagen}   />)
+                body={item.cuerpo} link={item.enlace} imagen={item.imagen} ></NovedadItem>)
             )}
         </section>
     );
