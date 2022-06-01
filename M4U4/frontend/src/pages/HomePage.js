@@ -12,9 +12,10 @@ const HomePage = (props) => {
                 <div className='testimonios-right'>
                 <h3>Testimonios</h3>
                 <div className='testimonio'>
-                    <span className='cita'>Totalmente increíble</span>
-                    <span className='autor'>Juan Perez</span>
+                    <span className='cita'>Proximamente</span>
+                    <span className='autor'>Proximamente</span>
                 </div>
+                
                 </div>
                  <div className="bienvenidos-left">
                     <h2>¿Qué es Caja de Rimas?</h2>

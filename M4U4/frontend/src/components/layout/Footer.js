@@ -5,7 +5,7 @@ const Footer = (props) => {
     return (
         <footer>
             <p>Derechos reservados. Caja de Rimas 2022.</p>
-            <p>Diseño - Nico Dietze.</p>
+            <p>Diseño Web - ProfeD.</p>
         </footer>
     );
 }
