@@ -3,7 +3,7 @@ var router = express.Router();
 var usuariosModel = require('./../../models/usuariosModel');
 var novedadesModel = require('./../../models/novedadesModel');
 var util = require('util');
-//const { map } = require('../../app');
+const { map } = require('../../app');
 var cloudinary = require('cloudinary').v2;
 
 const uploader = util.promisify(cloudinary.uploader.upload);
