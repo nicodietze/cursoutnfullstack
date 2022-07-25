@@ -39,7 +39,9 @@ const ContactoPage = (props) => {
     return (
         <main className="holder">
             <div className="columna contacto">
-                <h2>Contacto Rápido - Complete el siguiente formulario</h2>
+                <h2>Contacto Rápido</h2>
+                <div></div>
+                <h2>Complete el siguiente formulario</h2>
                 <form action="/contacto" method="post" 
                 class="formulario" onSubmit={handleSubmit}>
                     <p>

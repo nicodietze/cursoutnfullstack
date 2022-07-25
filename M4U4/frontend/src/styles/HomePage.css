@@ -1,6 +1,8 @@
+@media only screen and (min-width: 701px) {
+    
 .columnas{
     overflow: hidden;
-    background-color: rgba(255, 255, 226, 0.9);
+    background-color: rgba(255, 255, 226, 0.588);
 }
 
 .bienvenidos-left, .testimonios-right{
@@ -58,6 +60,74 @@ p {
     font-family: 'Patrick Hand', cursive;
     font-size: 1.3em;
 }
-
+}
     
+@media only screen and (max-width: 700px) {
 
+    .columnas{
+        overflow: hidden;
+        background-color: rgba(255, 255, 226, 0.679);
+        width: 350px;
+    }
+    
+    .bienvenidos-left, .testimonios-right{
+        box-sizing: border-box;
+    }
+    
+    .bienvenidos-left{
+        width: 80%;
+        position: relative;
+        top: -150px; left: 10px;
+        padding-right: 0em;
+        padding-top: 0em;
+        padding-left: 0em;
+        padding-bottom: 0em;
+        text-align: justify;
+    }
+
+    .bienvenidos-left h2{
+        font-size: 1em;
+    }
+    
+    .testimonios-right{
+        width: 25%;
+        position: relative;
+        top: 2850px; left: 20px;
+        margin-top: 1em;
+       
+    }
+    
+    .testimonio{
+        background-color: rgba(162, 77, 253, 0.449);
+        padding: 1em;
+    }
+    
+    .testimonio .cita{
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1em;
+        display: block;
+    }
+    
+    .testimonio .autor{
+        font-size: 0.7em;
+        text-align: center;
+        margin: 1em 0;
+        display: block;
+    }
+    
+    h2 {
+        font-family: 'Indie Flower', cursive;
+        font-size: 1em;
+    }
+    
+    h3 {
+        font-family: 'Indie Flower', cursive;
+        font-size: 1em;
+    }
+    
+    p {
+        font-family: 'Patrick Hand', cursive;
+        font-size: 1em;
+    }
+}

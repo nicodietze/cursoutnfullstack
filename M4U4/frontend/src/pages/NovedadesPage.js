@@ -22,7 +22,7 @@ const NovedadesPage = (props) => {
     return (
         <section className='holder'>
             {loading ? (
-                <p>Cargando...</p>
+                <p>Cargando, esto puede demorar unos segundos...</p>
             ) : (
                 novedades.map(item => <NovedadItem key={item.id}
                 title={item.titulo} subtitle={item.subtitulo}

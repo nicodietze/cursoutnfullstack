@@ -1,3 +1,5 @@
+@media only screen and (min-width: 701px) {
+
 .historia p{
     font-size: 0.8em;
     background-color: rgba(255, 255, 226, 0.9);
@@ -62,4 +64,79 @@ h2{
         font-size: 2em;
         display: inline-block;
         background-color: rgba(255, 255, 226, 0.9);
+        border: 1px solid gray;
+        border-radius: 0.25em;
 }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .historia p{
+        font-size: 0.8em;
+        background-color: rgba(255, 255, 226, 0.9);
+        border: 1px solid gray;
+        border-radius: 0.25em;
+        width: 75%;
+    
+    }
+    
+    .personas{
+        overflow: hidden;
+    }
+    
+    .persona{
+        width: 25%;
+        border: 1px solid gray;
+        border-radius: 0.25em;
+        float: left;
+        margin-left: 1.25%;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 226, 0.9);
+    }
+    
+    .persona{
+        text-align: center;
+    }
+    
+    .persona img{
+        border-radius: 50%;
+        box-shadow: 0 0 5px rgba(0,0,0,0.5) ;
+        margin: 0.8em 0 1em;
+        max-width: 50%;
+    }
+    
+    .persona h5, .persona h6{
+        text-align: center;
+        font-weight: normal;
+        color: #2e64a1;
+        margin: 0;
+    }
+    
+    .persona h5{
+        font-size: 0.8em;
+    }
+    
+    .persona h6{
+        font-size: 0.7em;
+        font-style: italic;
+    }
+    
+    .persona p{
+        font-size: 0.6em;
+        color: #444;
+        margin: 0 0em 0em;
+    }
+    
+    .persona:first-child{
+        margin-left: 0;
+    }
+    
+    h2{
+            font-family: 'Indie Flower', cursive;
+            font-size: 1em;
+            display: inline-block;
+            background-color: rgba(255, 255, 226, 0.9);
+            border: 1px solid gray;
+        border-radius: 0.25em;
+    }
+    }
